@@ -1,0 +1,77 @@
+.slider-1, .slider-2, .slider-3, .slider-4{
+	height: 80vh;
+	text-align: center;
+}
+
+.slider-2{
+	background: #ffffff;
+	padding-top: 100px;
+}
+
+.slider-3{
+	background: blue;
+}
+
+.slider-4{
+	background: #ff7c38;
+}
+
+#textoPortada{
+
+	margin-top: 150px;
+}
+
+/*==============================================
+= Escritorio grande (LG 1336px en adelante)  =
+==============================================*/
+
+@media (min-width: 1200px) {
+		
+	
+
+}
+
+/*==============================================
+= Escritorio mediano o tablet acostada (MD 1024px)  =
+==============================================*/
+
+@media (max-width: 1119px) and (min-width: 992px){
+
+	
+	
+	
+}
+
+
+/*==============================================
+= Escritorio pequeño o tablet vertical (SM 768px en adelante)  =
+==============================================*/
+
+@media (max-width: 991px) and (min-width: 768px){
+
+
+	
+	
+}
+
+/*==============================================
+= Movil (XS 320px)  =
+==============================================*/
+
+@media (max-width: 767px){
+	
+	
+
+}
+
+.about-left img {
+  outline: 10px solid #777;
+  outline-offset: -54px;
+  border: 44px solid transparent;
+  border-width: 15px 10px 85px 85px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+

@@ -1,0 +1,47 @@
+    <!--Administración-->
+
+    <div class="container-fluid">
+
+        <div class="row slider-2" id="administracion">
+
+          <div class="col-sm-12 col-lg-6" id="divtextoadmin">
+
+            <div class="col-sm-12">
+
+              <h1 align="left">Administración</h1>
+
+            </div>
+
+            <div class="col-sm-12">
+              
+              <p id="textoadministracion" align="left">Grupo Entorno es un conjunto empresarial, líder en la region. Desarrollador de complejos urbanísticos, turísticos, residenciales, en el Caribe mexicano con sede en la Riviera Maya Q.Roo México, con participación en otros países, teniendo más de 20 años de experiencia en la zona y con una comprobada participación en servicios integrales para la planificación de negocios.<br><br>
+
+              Complementados con nuestros servicios de Arquitectura e ingeniería, logramos como resultado una especialidad profesional para ofrecer excelentes proyectos de inversión inmobiliaria.</p>
+
+            </div>
+
+          </div>
+
+          <div class="col-sm-12 col-lg-6"><h3>Foto</h3></div>
+
+        </div>
+
+    </div>
+
+    <!--Fin administración-->
+
+    <!--Nosotros-->
+
+    <div class="container-fluid">
+
+        <div class="row slider-3" id="nosotros" >
+
+          <div class="col-sm-12 col-lg-6"><h1>Foto</h1></div>
+
+          <div class="col-sm-12 col-lg-6"><h3>Nosotros</h3></div>
+
+        </div>
+
+    </div>
+
+    <!--Fin nosotros-->
