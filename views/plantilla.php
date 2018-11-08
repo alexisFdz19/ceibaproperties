@@ -88,7 +88,7 @@ $url = Ruta::ctrRuta();
 
             if($ruta != null){
 
-              include "modulos/elementos.php";
+              include "modulos/propiedades.php";
 
             }else{
 
