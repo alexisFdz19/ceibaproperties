@@ -46,6 +46,7 @@ $url = Ruta::ctrRuta();
 
         $rutas = array();
         $ruta = null;
+        $infoPropiedad = null;
 
         if(isset($_GET["ruta"])){
 
@@ -83,12 +84,28 @@ $url = Ruta::ctrRuta();
             }
 
             /*==============================================
+            =    URL´s Amigables de propiedades       =
+            ==============================================*/
+
+            $rutaPropiedades = ControladorCategorias::ctrMostrarInfoPropiedad($item, $valor);
+            
+            if($rutas[0] == $rutaPropiedades["ruta"]){
+
+              $infoPropiedad = $rutas[0];
+
+            }
+            
+            /*==============================================
             =      Lista blanca de  URL´s Amigables       =
             ==============================================*/
 
             if($ruta != null){
 
               include "modulos/propiedades.php";
+
+            }elseif($infoPropiedad != null){
+
+              include "modulos/infopropiedad.php";
 
             }else{
 
@@ -113,6 +130,9 @@ $url = Ruta::ctrRuta();
     <script type="text/javascript" src="<?php echo $url?>views/js/bootstrap.min.js"></script>
     
     <script src="<?php echo $url?>views/js/smooth-scroll.min.js"></script>
+
+    <script src="<?php echo $url?>views/js/plantilla.js"></script>
+
     <script>
       smoothScroll.init({
       selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)

@@ -13,7 +13,7 @@ $url = Ruta::ctrRuta();
       <div class="container">
 
         <a class="navbar-brand" href="<?php echo $url?>">
-          <img src="<?php echo $url?>views/img/logo2.png" width="50" height="50" class="d-inline-block align-top">
+          <img src="<?php echo $url?>views/img/logoweb.png" height="35" class="d-inline-block align-top">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

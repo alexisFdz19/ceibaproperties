@@ -7,31 +7,49 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 
       </ol>
 
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <img class="d-block w-100" src="<?php echo $url?>views/img/cover.jpg" alt="First slide">
+          <img class="d-block w-100" src="<?php echo $url?>views/img/cover3.jpg" alt="Administración">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Slider 1</h1>
+            <h1>Administración</h1>
             <p>Ceiba Properties</p>
           </div>
         </div>
 
         <div class="carousel-item">
-          <img class="d-block w-100" src="<?php echo $url?>views/img/cover.jpg" alt="Second slide">
+          <img class="d-block w-100" src="<?php echo $url?>views/img/cover4.jpg" alt="Venta">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Slider 2</h1>
+            <h1>Venta</h1>
             <p>Ceiba Properties</p>
           </div>
         </div>
 
         <div class="carousel-item">
-          <img class="d-block w-100" src="<?php echo $url?>views/img/cover.jpg" alt="Third slide">
+          <img class="d-block w-100" src="<?php echo $url?>views/img/cover5.jpg" alt="Renta">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Slider 3</h1>
+            <h1>Renta</h1>
+            <p>Ceiba Properties</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="<?php echo $url?>views/img/cover6.jpg" alt="Mantenimiento">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Mantenimiento</h1>
+            <p>Ceiba Properties</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="<?php echo $url?>views/img/cover7.jpg" alt="Vacacional">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Vacacional</h1>
             <p>Ceiba Properties</p>
           </div>
         </div>
@@ -63,8 +81,8 @@
               <span class="lnr lnr-sun"></span>
               <h1 class="text-uppercase">
 
-                <span>Visually</span> <br>
-                clean & Perfect
+                <span>Administración</span> <br>
+                
               </h1>
               <p>
                 Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.
@@ -84,8 +102,8 @@
               <span class="lnr lnr-sun"></span>
               <h1 class="text-uppercase" align="right">
 
-                <span>Visually</span> <br>
-                clean & Perfect
+                <span>Nosotros</span> <br>
+                
               </h1>
               <p align="right">
                 Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.

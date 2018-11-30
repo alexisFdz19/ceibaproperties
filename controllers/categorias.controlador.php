@@ -30,4 +30,33 @@ class ControladorCategorias{
 
 	}
 
+	/*=============================================
+	=            Mostrar propiedades          =
+	=============================================*/
+
+	static public function ctrMostrarPropiedades($ordenar, $item, $valor, $base, $tope){
+		
+		$tabla = "propiedades";
+
+		$respuesta = ModeloCategorias::mdlMostrarPropiedades($tabla, $ordenar, $item, $valor, $base, $tope);
+
+		return $respuesta;
+
+	}
+
+	/*=============================================
+	=            Mostrar info propiedad          =
+	=============================================*/
+
+	static public function ctrMostrarInfoPropiedad($item, $valor){
+		
+		$tabla = "propiedades";
+
+		$respuesta = ModeloCategorias::mdlMostrarInfoPropiedad($tabla, $item, $valor);
+
+		return $respuesta;
+
+	}
+
+
 }

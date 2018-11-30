@@ -1,0 +1,1 @@
+<h1>Info propiedad<h1>
